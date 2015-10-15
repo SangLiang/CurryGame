@@ -1,8 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System;
+using UnityEngine.UI;
 
 public class HeroController : MonoBehaviour {
-
+   
 	// Use this for initialization
 	void Start () {
 	
@@ -20,8 +22,10 @@ public class HeroController : MonoBehaviour {
 	}
 
     void OnCollisionEnter2D( Collision2D col) { 
+       
         if(col.gameObject.tag=="Enemy"){
-            //Destroy(col.gameObject);
+           
+        
             StartCoroutine(GoNextto());
 
         }
@@ -31,6 +35,7 @@ public class HeroController : MonoBehaviour {
     IEnumerator GoNextto()
     {
         yield return new WaitForSeconds(0.8f);
+        PlayerPrefs.SetInt("Dead_Score", Convert.ToInt32(GameObject.Find("Score_Number").GetComponent<Text>().text));
         Application.LoadLevel(1);
     }
 
