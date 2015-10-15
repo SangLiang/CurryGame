@@ -1,11 +1,11 @@
 fileFormatVersion: 2
-guid: b0b737db843573c4b9832abf54509b74
+guid: 849d4c75dca24b042910d42130848d39
 TextureImporter:
   fileIDToRecycleName:
-    21300000: sa 1_0
-    21300002: sa 1_1
-    21300004: sa 1_2
-    21300006: sa 1_3
+    21300000: curyRun_0
+    21300002: curyRun_1
+    21300004: curyRun_2
+    21300006: curyRun_3
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -47,42 +47,42 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: sa 1_0
+    - name: curyRun_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 281
-        width: 176
-        height: 228
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: sa 1_1
-      rect:
-        serializedVersion: 2
-        x: 183
-        y: 294
+        x: 10
+        y: 26
         width: 142
         height: 215
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: sa 1_2
+    - name: curyRun_1
       rect:
         serializedVersion: 2
-        x: 328
-        y: 276
-        width: 105
+        x: 168
+        y: 13
+        width: 108
         height: 233
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: sa 1_3
+    - name: curyRun_2
       rect:
         serializedVersion: 2
-        x: 4
-        y: 29
-        width: 104
+        x: 305
+        y: 13
+        width: 177
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: curyRun_3
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 4
+        width: 106
         height: 248
       alignment: 0
       pivot: {x: 0, y: 0}
