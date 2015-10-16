@@ -18,9 +18,17 @@ public class Basketball_Builder : MonoBehaviour {
     {
         Temp_Time += Time.deltaTime;
         if(Convert.ToInt32(GameObject.Find("Score_Number").GetComponent<Text>().text)>10){
-            Build_Time = 1f;
+            Build_Time = 1.2f;
         }
         if (Convert.ToInt32(GameObject.Find("Score_Number").GetComponent<Text>().text) > 20)
+        {
+            Build_Time =0.9f;
+        }
+        if (Convert.ToInt32(GameObject.Find("Score_Number").GetComponent<Text>().text) > 30)
+        {
+            Build_Time = 0.8f;
+        }
+        if (Convert.ToInt32(GameObject.Find("Score_Number").GetComponent<Text>().text) > 40)
         {
             Build_Time = 0.5f;
         }

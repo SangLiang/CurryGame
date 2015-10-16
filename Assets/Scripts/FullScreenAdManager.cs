@@ -3,7 +3,7 @@ using System.Collections;
 using GoogleMobileAds.Api;
 //全屏广告配置
 public class FullScreenAdManager : MonoBehaviour {
-    private string FullScreen_ID = "ca-app-pub-2501008550889118/5143319783";
+    private string FullScreen_ID = "ca-app-pub-2501008550889118/1708404985";
     private InterstitialAd ad;
 	// Use this for initialization
 	void Start () {

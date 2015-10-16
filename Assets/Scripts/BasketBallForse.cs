@@ -11,7 +11,7 @@ public class BasketBallForse : MonoBehaviour {
    
 
     void Start() {
-        randomNumber = Random.Range(0, 30);
+        randomNumber = Random.Range(8, 45);
         addForse = forse * randomNumber;
     
     }
