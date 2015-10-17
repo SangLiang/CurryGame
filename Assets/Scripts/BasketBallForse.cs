@@ -11,7 +11,7 @@ public class BasketBallForse : MonoBehaviour {
    
 
     void Start() {
-        randomNumber = Random.Range(8, 45);
+        randomNumber = Random.Range(2, 45);
         addForse = forse * randomNumber;
     
     }
@@ -22,10 +22,6 @@ public class BasketBallForse : MonoBehaviour {
 
         rigidbody2D.AddForce(-Vector2.right * addForse);     
         Destroy(this.gameObject,8f);
-
-      
-
-        
 	}
 
    

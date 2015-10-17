@@ -10,7 +10,7 @@ public class BgMove : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if(transform.position.x<-16){
+        if(transform.position.x<-22){
             Destroy(this.gameObject);
         }
         transform.Translate(Vector2.right * Time.deltaTime * (-1) * Speed);
