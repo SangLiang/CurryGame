@@ -36,7 +36,7 @@ public class HeroController : MonoBehaviour {
     {
         yield return new WaitForSeconds(0.8f);
         PlayerPrefs.SetInt("Dead_Score", Convert.ToInt32(GameObject.Find("Score_Number").GetComponent<Text>().text));
-        Application.LoadLevel(1);
+        Application.LoadLevel("GameOverScene");
     }
 
 }

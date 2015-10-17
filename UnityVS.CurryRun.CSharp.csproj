@@ -83,6 +83,7 @@
     <Compile Include="Assets\Scripts\BasketBallForse.cs" />
     <Compile Include="Assets\Scripts\Basketball_Builder.cs" />
     <Compile Include="Assets\Scripts\BgMove.cs" />
+    <Compile Include="Assets\Scripts\ButtonControllerStattScene.cs" />
     <Compile Include="Assets\Scripts\FullScreenAdManager.cs" />
     <Compile Include="Assets\Scripts\HeroController.cs" />
     <Compile Include="Assets\Scripts\ScoreManager.cs" />
