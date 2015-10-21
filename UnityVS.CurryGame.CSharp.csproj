@@ -89,9 +89,11 @@
     <Compile Include="Assets\Scripts\Music\GameOverSceneMusic.cs" />
     <Compile Include="Assets\Scripts\Music\MusicControl.cs" />
     <Compile Include="Assets\Scripts\Music\Stage1Music.cs" />
+    <Compile Include="Assets\Scripts\Panel.cs" />
     <Compile Include="Assets\Scripts\ScoreManager.cs" />
     <Compile Include="Assets\Scripts\ScreenScale.cs" />
     <Compile Include="Assets\Scripts\Setting.cs" />
+    <Compile Include="Assets\Scripts\iTween.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Plugins\Android\GoogleMobileAdsPlugin\AndroidManifest.xml" />
