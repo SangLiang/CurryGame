@@ -3,28 +3,34 @@
 using System.Collections;
 
 public class MusicControl : MonoBehaviour {
-    private AudioSource audio;
+    private AudioSource Myaudio;
     public AudioClip startMusic;
     public AudioClip ballSound;
     public AudioClip GameOverSound;
+    public AudioClip AwardSound;
 
 
     public static MusicControl _instant;
     void Awake() {
         _instant = this;
-        audio = this.GetComponent<AudioSource>();
+        Myaudio = this.GetComponent<AudioSource>();
     }
 
     public void StartStartMusic() {
-        audio.PlayOneShot(startMusic);
+        Myaudio.PlayOneShot(startMusic);
     }
 
     public void PlayBallSound() {
-        audio.PlayOneShot(ballSound);
+        Myaudio.PlayOneShot(ballSound);
     }
 
     public void PlayGameOverSound() {
-        audio.PlayOneShot(GameOverSound);
+        Myaudio.PlayOneShot(GameOverSound);
+    }
+
+    public void PlayAwardSound()
+    {
+        Myaudio.PlayOneShot(AwardSound);
     }
 
 }

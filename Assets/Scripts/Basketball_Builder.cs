@@ -22,15 +22,19 @@ public class Basketball_Builder : MonoBehaviour {
         }
         if (Convert.ToInt32(GameObject.Find("Score_Number").GetComponent<Text>().text) > 20)
         {
-            Build_Time =0.9f;
+            Build_Time =1.0f;
         }
         if (Convert.ToInt32(GameObject.Find("Score_Number").GetComponent<Text>().text) > 30)
         {
-            Build_Time = 0.8f;
+            Build_Time = 0.9f;
         }
         if (Convert.ToInt32(GameObject.Find("Score_Number").GetComponent<Text>().text) > 40)
         {
-            Build_Time = 0.5f;
+            Build_Time =0.8f;
+        }
+        if (Convert.ToInt32(GameObject.Find("Score_Number").GetComponent<Text>().text) > 40)
+        {
+            Build_Time = 0.7f;
         }
 
 

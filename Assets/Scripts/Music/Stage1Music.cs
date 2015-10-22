@@ -9,7 +9,5 @@ public class Stage1Music : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
 	
-	}
 }
