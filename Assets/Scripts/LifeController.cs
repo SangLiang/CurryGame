@@ -20,7 +20,10 @@ public class LifeController : MonoBehaviour {
 
 
     public void AddLife() {
-        Life = Life + 1;
+        if (Life == 1) {
+            Life = Life + 1;
+        }
+        
     }
 
     public void LessLife() {

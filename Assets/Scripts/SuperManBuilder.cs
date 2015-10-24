@@ -20,7 +20,7 @@ public class SuperManBuilder : MonoBehaviour {
         Times += Time.deltaTime;
         
 
-	    if(SuperManLife==true&&Times>10&&Score%20==0){
+	    if(SuperManLife==true&&Times>10&&Score%15==0){
             Instantiate(SuperMan,transform.position,transform.rotation);
            
             StartCoroutine((DeadSumperManWaitFor()));

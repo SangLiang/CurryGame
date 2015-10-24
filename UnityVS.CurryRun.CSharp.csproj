@@ -84,12 +84,14 @@
     <Compile Include="Assets\Scripts\Basketball_Builder.cs" />
     <Compile Include="Assets\Scripts\BgMove.cs" />
     <Compile Include="Assets\Scripts\ButtonControllerStattScene.cs" />
+    <Compile Include="Assets\Scripts\ClearScoreButtonController.cs" />
     <Compile Include="Assets\Scripts\FullScreenAdManager.cs" />
     <Compile Include="Assets\Scripts\Hero\HeroController.cs" />
     <Compile Include="Assets\Scripts\LifeController.cs" />
     <Compile Include="Assets\Scripts\Music\GameOverSceneMusic.cs" />
     <Compile Include="Assets\Scripts\Music\MusicControl.cs" />
     <Compile Include="Assets\Scripts\Music\Stage1Music.cs" />
+    <Compile Include="Assets\Scripts\MusicSilent.cs" />
     <Compile Include="Assets\Scripts\Panel.cs" />
     <Compile Include="Assets\Scripts\ScoreManager.cs" />
     <Compile Include="Assets\Scripts\ScreenScale.cs" />
