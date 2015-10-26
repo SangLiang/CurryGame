@@ -31,13 +31,15 @@ public class HeroController : MonoBehaviour {
             MusicControl._instant.PlayBallSound();
             Light.GetComponent<SpriteRenderer>().color = new Color(255, 255, 255, 0);
             LifeController._instance.LessLife();
-
+            this.rigidbody2D.mass = 1;
+            Debug.Log(this.rigidbody2D.mass);
         }
 
         if ( col.gameObject.tag=="Award"){
             Light.GetComponent<SpriteRenderer>().color = new Color(255, 255, 255, 1);
             LifeController._instance.AddLife();
-            Debug.Log("1");
+            this.rigidbody2D.mass = 10;
+            Debug.Log(this.rigidbody2D.mass);
         }
     }
 
