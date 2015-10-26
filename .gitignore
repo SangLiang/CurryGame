@@ -1,0 +1,17 @@
+###############
+#    folder   #
+###############
+.settings/
+target
+
+
+
+
+###############
+#     file    #
+###############
+*.properties
+config.properties
+/.classpath
+/.project
+/resources/*.properties
