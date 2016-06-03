@@ -20,7 +20,7 @@ public class BasketBallForse : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        rigidbody2D.AddForce(-Vector2.right * addForse);     
+        GetComponent<Rigidbody2D>().AddForce(-Vector2.right * addForse);     
         Destroy(this.gameObject,8f);
 	}
 
