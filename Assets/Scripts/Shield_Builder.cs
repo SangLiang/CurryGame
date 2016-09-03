@@ -1,4 +1,8 @@
-﻿using UnityEngine;
+﻿/*
+ *护盾创造机
+ */
+
+using UnityEngine;
 using System.Collections;
 
 public class Shield_Builder : MonoBehaviour {
@@ -7,12 +11,10 @@ public class Shield_Builder : MonoBehaviour {
     private bool isBuild=false;
 
     public GameObject Shield;
-	// Use this for initialization
 	void Start () {
 	
 	}
 	
-	// Update is called once per frame
 	void Update () {
 	    Temp_time+=Time.deltaTime;
         

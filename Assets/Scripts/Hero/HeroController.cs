@@ -10,16 +10,11 @@ public class HeroController : MonoBehaviour {
 	void Start () {
 	
 	}
-	
 	// Update is called once per frame
 	void Update () {
         //transform.position.x = new Vector3( );
-
-
-        transform.position = new Vector3(Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 10)).x, transform.position.y,transform.position.z);
-        
-        
-        //将鼠标坐标转换为屏幕坐标然后赋给战机的坐标
+		//将鼠标坐标转换为屏幕坐标然后赋给库里的坐标
+        transform.position = new Vector3(Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 10)).x, -2,transform.position.z);
 	}
 
     void OnCollisionEnter2D( Collision2D col) { 
@@ -39,11 +34,7 @@ public class HeroController : MonoBehaviour {
             Light.GetComponent<SpriteRenderer>().color = new Color(255, 255, 255, 1);
             LifeController._instance.AddLife();
             this.GetComponent<Rigidbody2D>().mass = 10;
-            Debug.Log(this.GetComponent<Rigidbody2D>().mass);
+            //Debug.Log(this.GetComponent<Rigidbody2D>().mass);
         }
     }
-
-
-  
-
 }

@@ -10,11 +10,6 @@ public class MusicControl : MonoBehaviour {
     public AudioClip AwardSound;
     public int vol;
 
-    
-
-
-   
-
     public static MusicControl _instant;
     void Awake() {
         _instant = this;
@@ -27,8 +22,6 @@ public class MusicControl : MonoBehaviour {
         if (vol == 0)
         {
             Myaudio.volume = 0;
-
-
         }
 
         if (vol == 1)
@@ -36,8 +29,7 @@ public class MusicControl : MonoBehaviour {
             Myaudio.volume = 1.0f;
         }
     }
-
-
+	//开始的音乐
     public void StartStartMusic() {
         Myaudio.PlayOneShot(startMusic);
     }
@@ -55,9 +47,6 @@ public class MusicControl : MonoBehaviour {
         Myaudio.PlayOneShot(AwardSound);
     }
 
-
-
-
     public void Music_Sclience() {
         Myaudio.volume = 0;
     }
@@ -66,7 +55,4 @@ public class MusicControl : MonoBehaviour {
     {
         Myaudio.volume = 1;
     }
-
-   
-
 }

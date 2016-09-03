@@ -1,6 +1,9 @@
-﻿using UnityEngine;
+﻿/*
+	介绍面板
+*/
+using UnityEngine;
 using System.Collections;
-//using DG.Tweening;
+
 public class Panel : MonoBehaviour
 {
     public GameObject gameDeveloperPanel;
