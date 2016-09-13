@@ -18,7 +18,6 @@ public class LifeController : MonoBehaviour {
         }
     }
 
-
     public void AddLife() {
         if (Life == 1) {
             Life = Life + 1;
@@ -29,8 +28,6 @@ public class LifeController : MonoBehaviour {
     public void LessLife() {
         Life = Life - 1;
     }
-
-
 
     IEnumerator GoNextto()
     {
