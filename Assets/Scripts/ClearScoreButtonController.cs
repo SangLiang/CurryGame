@@ -13,7 +13,6 @@ public class ClearScoreButtonController : MonoBehaviour {
 
         }
     }
-
     public void ClearScorePanel_Out()
     {
         if (isPanelIn == true)
@@ -22,7 +21,5 @@ public class ClearScoreButtonController : MonoBehaviour {
             isPanelIn = false;
         }
     }
-
-
 
 }

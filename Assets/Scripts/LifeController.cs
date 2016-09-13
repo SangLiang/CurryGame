@@ -1,13 +1,14 @@
-﻿using UnityEngine;
+﻿/*
+	生命值的控制
+*/
+using UnityEngine;
 using System.Collections;
 using System;
 using UnityEngine.UI;
 
 public class LifeController : MonoBehaviour {
-
     public static LifeController _instance;
     public int Life = 1;
-
     void Awake() {
         _instance = this;
     }
@@ -35,5 +36,4 @@ public class LifeController : MonoBehaviour {
         PlayerPrefs.SetInt("Dead_Score", Convert.ToInt32(GameObject.Find("Score_Number").GetComponent<Text>().text));
         Application.LoadLevel("GameOverScene");
     }
-
 }
